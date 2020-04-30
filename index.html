@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilom.css">
+    <title>Sorteo</title>
+</head>
+<body class="bg">  
+    <br/>
+    <div class="titulo">
+        <h1 class="titulo">Sorteos Aguatonaos</h1>
+        <img class="logop" src="img/logo ponchera.png">    
+    </div>
+    <br/>
+    <div class="container centered">
+        <div class="container col-md-12">
+            <div class="container">
+                <div class="col-sm-6">
+                <img src="img/cerveza.png" class="imagenf" width="50" height="50">    
+                <label for="sorteo" class="texto">Participantes</label>
+                <img src="img/cerveza.png" width="50" height="50">
+                <textarea class="form-control" id="nombres" rows="8" 
+                placeholder="Ingreso de participantes"></textarea>
+                </div>
+                <br/>
+                <div class="col-md-6 text-center">
+                    <button class="btn btn-lg btn-chulo" onclick="sortea()">¡Ganador!</button>
+                </div>
+            </div>
+        
+    </div>
+    </div>
+    <div class="container col-lg-1 centered1">
+                <div class="col-lg-auto centered1">
+                    <span id="gana" class="texto1 font-weight-bold"></span>
+                    <br/>
+                    <br/>
+                    <div id="ganador"></div>
+                    <br/>
+                    <div id="imag"></div>
+                    
+                </div>
+            
+    </div>
+
+    <div class="container">
+        <img src="img/logomuster.png" class="logo1" width="130" height="130">
+        <img src="img/logogluck.png" class="logo2" width="130" height="130">
+        <img src="img/logobeerco.png" class="logo3" width="150" height="150">
+        <img src="img/logorazer.png" class="logo4" width="130" height="130">
+    </div>
+
+    <script src="sorteo.js"></script>
+
+</body>
+</html>

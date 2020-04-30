@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'CodeDemo-Bold';
+  src: url('../fonts/CodeDemo-Bold.otf');
+}
+
+  .titulo
+  {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'CodeDemo-Bold', sans-serif;
+  }
+
+  .texto
+  {
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-weight: bold;  
+  }
+
+  .imagenf
+  {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: "FlipH";
+    filter: FlipH;
+  }
+
+  .texto1
+  {
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    /* color: #282727;   */
+    color: white;
+  }
+
+  .texto2
+  {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .logo1
+  {
+    position: fixed;
+    top: 10%;
+    left: 6%;
+  }
+
+  .logo2
+  {
+    position: fixed;
+    top: 32%;
+    left: 6%;
+  }
+
+  .logo3
+  {
+    position: fixed;
+    top: 52%;
+    left: 5.2%;
+  }
+
+  .logo4
+  {
+    position: fixed;
+    top: 76%;
+    left: 6%;
+  }
+
+   .centered {
+    position: fixed;
+    top: 33%;
+    left: 25%;
+    
+  } 
+
+  .centered1 {
+    position: fixed;
+    top: 30%;
+    left: 74%;
+    text-align: center;
+    align-content: center;
+  }
+
+  .centered1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+  }
+  
+  .bg
+  {
+    background: rgba(172,245,47,0.33) url("../img/lup.png") repeat scroll -40px -40px;
+    background-color: #d2a22a; 
+    background-blend-mode: darken;  
+  }
+
+  .btn-chulo { 
+    color: #FFFFFF; 
+    background-color: #259C4D; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-chulo:hover, 
+  .btn-chulo:focus, 
+  .btn-chulo:active, 
+  .btn-chulo.active, 
+  .open .dropdown-toggle.btn-chulo { 
+    color: #FFFFFF; 
+    background-color: #2A7A24; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-chulo:active, 
+  .btn-chulo.active, 
+  .open .dropdown-toggle.btn-chulo { 
+    background-image: none; 
+  } 
+   
+  .btn-chulo.disabled, 
+  .btn-chulo[disabled], 
+  fieldset[disabled] .btn-chulo, 
+  .btn-chulo.disabled:hover, 
+  .btn-chulo[disabled]:hover, 
+  fieldset[disabled] .btn-chulo:hover, 
+  .btn-chulo.disabled:focus, 
+  .btn-chulo[disabled]:focus, 
+  fieldset[disabled] .btn-chulo:focus, 
+  .btn-chulo.disabled:active, 
+  .btn-chulo[disabled]:active, 
+  fieldset[disabled] .btn-chulo:active, 
+  .btn-chulo.disabled.active, 
+  .btn-chulo[disabled].active, 
+  fieldset[disabled] .btn-chulo.active { 
+    background-color: #259C4D; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-chulo .badge { 
+    color: #259C4D; 
+    background-color: #FFFFFF; 
+  }
